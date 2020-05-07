@@ -21,6 +21,7 @@
     list-style: none; }
 
 header {
+  background-color: rgba(128, 128, 128, 0.13);
   display: flex;
   justify-content: space-between;
   align-items: center; }
