@@ -1,6 +1,10 @@
+
 .navbar{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
     color: black;
     position: absolute;
-    bottom: 0px;
-    left: 73%;
+    background-color: green;
+
 }
