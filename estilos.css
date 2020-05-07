@@ -26,7 +26,6 @@
 }
 
 .navbar {
-  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,9 +33,12 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   color: black;
-  position: absolute;
   background-color: green;
+  z-index: 3;
 }
 
 header {
