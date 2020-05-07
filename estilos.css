@@ -11,8 +11,9 @@
 .navbar {
   display: flex;
   flex-direction: column;
-  color: black;
-  list-style: none; }
+  color: black; }
+  .navbar ul {
+    list-style: none; }
 
 header {
   display: flex;
@@ -26,7 +27,6 @@ header {
 
 main {
   display: flex;
-  justify-content: space-evenly;
-  margin: 20px; }
+  justify-content: space-evenly; }
 
 /*# sourceMappingURL=estilos.css.map */
