@@ -5,8 +5,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    margin: 5px; }
+    justify-content: space-around; }
+    .items .content img {
+      margin: 10px;
+      width: 250px;
+      height: 150px;
+      border: 1px solid black; }
 
 .navbar {
   display: flex;
