@@ -1,10 +1,27 @@
 
-.navbar{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    color: black;
-    ul{
-        list-style: none;
+.navbar {
+  position: relative;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: black;
+  border-right: 2px solid $border-color;
+  border-bottom: 2px solid $border-color;
+  height: 1000px;
+
+  ul {
+    list-style: none;
+
+    li {
+      font-size: 24px;
     }
+    li:hover {
+      color: rgb(47, 49, 180);
+      font-size: 26px;
+      font-weight: 300;
+      cursor: pointer;
+      transition: all 0.1s ease-in;
+    }
+  }
 }
