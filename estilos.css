@@ -1,6 +1,4 @@
 .items {
-  position: absolute;
-  background-color: red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -23,6 +21,7 @@
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin: 5px;
 }
 
 .navbar {
@@ -37,8 +36,7 @@
       -ms-flex-pack: start;
           justify-content: flex-start;
   color: black;
-  background-color: green;
-  z-index: 3;
+  list-style: none;
 }
 
 header {
@@ -71,5 +69,6 @@ main {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin: 20px;
 }
 /*# sourceMappingURL=estilos.css.map */

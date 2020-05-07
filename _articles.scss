@@ -1,13 +1,11 @@
   .items {
-    position: absolute;
-    background-color: red;
     display: flex;
     flex-direction: column;
-
     .content{
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: space-around;
+      margin: 5px;
     }
   }
