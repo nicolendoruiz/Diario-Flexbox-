@@ -46,10 +46,11 @@
       transition: all 0.1s ease-in; }
 
 header {
-  background-color: rgba(114, 114, 114, 0.274);
+  background-color: rgba(114, 114, 114, 0.034);
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  font-size: 24px; }
   header ul {
     display: flex;
     list-style: none; }
@@ -59,7 +60,12 @@ header {
 aside {
   width: 1000px;
   border-left: 2px solid #727272;
-  border-bottom: 2px solid #727272; }
+  border-bottom: 2px solid #727272;
+  display: flex;
+  flex-direction: column; }
+  aside img {
+    width: 200px;
+    height: 100px; }
 
 main {
   display: flex;
