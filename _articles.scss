@@ -1,15 +1,17 @@
 $border-color: rgb(114, 114, 114); //variable color de bordes
 
 .items {
+  background-color: blue($color: #00000052);  
   display: flex;
   flex-direction: column;
   border-bottom: 2px solid $border-color;
-  ;
+  
   .content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    background-color: mix($color: #000000, $color: #a55555, $weight: 0.5);
     img {
       position: relative;
       top: 25px;
