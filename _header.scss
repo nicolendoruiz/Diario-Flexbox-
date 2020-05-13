@@ -3,13 +3,14 @@ header {
   align-items: center;
   font-size: 24px;
   padding: 10px;
+  background: rgb(88, 138, 173);
   .container {
     position: relative;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    label span {
+    label span{
       display: block;
       width: 40px;
       height: 5px;
@@ -36,8 +37,8 @@ header {
           text-align: center;
         }
         li:hover {
-          background-color: rgba(0, 112, 192, 0.418);
-          color:white;
+          background-color: rgba(138, 185, 219, 0.87) ;
+          color: rgb(11, 89, 144);
           cursor: pointer;
           transition: all 0.1s ease-in;
         }
@@ -48,21 +49,26 @@ header {
 
 @media (min-width: 800px) {
   header {
+    background: rgb(109, 148, 177);
     label {
       display: none;
+      
     }
     .container {
+      
       .menu {
         background-color: white;
         display: block;
         flex-basis: 80%;
+        background: rgb(109, 148, 177);
         .ulheader {
           display: flex;
           flex-direction: row;
           justify-content: flex-end;
-          li:hover {
-            background-color: white;
-            color: rgb(0, 112, 192);
+          li:hover { //tenemos que hacer que cubra arriba y abajo
+            background-color: rgb(0, 112, 192);
+            color: black;
+            transition: all 0.3s ease-in;
           }
         }
       }

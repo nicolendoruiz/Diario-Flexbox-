@@ -37,26 +37,33 @@
     display: flex;
     flex-direction: row;
     list-style: none;
-    margin: 0;
     padding: 0; }
     .navbar ul li {
       padding: 10px;
       font-size: 24px; }
     .navbar ul li:hover {
-      color: #2f31b4;
-      font-size: 26px;
-      font-weight: 300;
+      color: #0f69aa;
       cursor: pointer;
       transition: all 0.1s ease-in; }
 
 @media (min-width: 600px) {
   .navbar ul {
-    flex-direction: column; } }
+    flex-direction: column;
+    margin: 0; }
+
+  .navbar ul {
+    display: flex;
+    flex-direction: column; }
+    .navbar ul li:hover {
+      background-color: #0070c0;
+      color: black;
+      transition: all 0.3s ease-in; } }
 header {
   justify-content: space-between;
   align-items: center;
   font-size: 24px;
-  padding: 10px; }
+  padding: 10px;
+  background: #588aad; }
   header .container {
     position: relative;
     display: flex;
@@ -86,25 +93,29 @@ header {
           padding: 10px;
           text-align: center; }
         header .container .menu .ulheader li:hover {
-          background-color: rgba(0, 112, 192, 0.418);
-          color: white;
+          background-color: rgba(138, 185, 219, 0.87);
+          color: #0b5990;
           cursor: pointer;
           transition: all 0.1s ease-in; }
 
 @media (min-width: 800px) {
-  header label {
-    display: none; }
-  header .container .menu {
-    background-color: white;
-    display: block;
-    flex-basis: 80%; }
-    header .container .menu .ulheader {
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-end; }
-      header .container .menu .ulheader li:hover {
-        background-color: white;
-        color: #0070c0; } }
+  header {
+    background: #6d94b1; }
+    header label {
+      display: none; }
+    header .container .menu {
+      background-color: white;
+      display: block;
+      flex-basis: 80%;
+      background: #6d94b1; }
+      header .container .menu .ulheader {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end; }
+        header .container .menu .ulheader li:hover {
+          background-color: #0070c0;
+          color: black;
+          transition: all 0.3s ease-in; } }
 /*aside{
     background-color: red;
     width: 100%;
@@ -116,19 +127,22 @@ header {
     }
 }
 */
-main {
-  flex-direction: column;
-  display: flex;
-  justify-content: space-evenly; }
-
-footer {
-  width: 100%;
+body {
   margin: 0;
-  padding: 0;
-  text-align: center; }
-
-@media (min-width: 600px) {
-  main {
-    flex-direction: row; } }
+  padding: 0; }
+  body main {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Helvetica, Arial, sans-serif;
+    background: #6d94b1; }
+  body footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+  @media (min-width: 600px) {
+    body main {
+      flex-direction: row; } }
 
 /*# sourceMappingURL=estilos.css.map */

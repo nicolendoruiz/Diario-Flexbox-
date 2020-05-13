@@ -3,20 +3,31 @@
 @import "header";
 @import "aside";
 
-main {
-  flex-direction: column;
-  display: flex;
-  justify-content: space-evenly;
-}
-footer{
-  width: 100%;
+
+
+
+body {
+
   margin: 0;
   padding: 0;
-  text-align: center;
-}
-
-@media (min-width: 600px) {
+  
   main {
-    flex-direction: row;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Helvetica, Arial, sans-serif;
+    background: rgb(109, 148, 177);
+  }
+  footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  @media (min-width: 600px) {
+    main {
+      flex-direction: row;
+    }
   }
 }
