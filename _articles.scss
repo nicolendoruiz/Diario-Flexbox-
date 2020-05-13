@@ -4,7 +4,7 @@ $border-color: rgb(114, 114, 114); //variable color de bordes
   background-color: blue($color: #00000052);  
   display: flex;
   flex-direction: column;
-  border-bottom: 2px solid $border-color;
+  
   
   .content {
     display: flex;
