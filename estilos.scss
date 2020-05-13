@@ -3,9 +3,20 @@
 @import "header";
 @import "aside";
 
-main{
-    display: flex;
-    justify-content: space-evenly;
+main {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
-//probando cambio de credenciales
+@media (min-width: 600px) {
+  main {
+    flex-direction: row;
+  }
+}

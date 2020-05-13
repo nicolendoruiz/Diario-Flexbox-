@@ -1,8 +1,8 @@
 header {
-  background-color: rgba(114, 114, 114, 0.034);
   justify-content: space-between;
   align-items: center;
   font-size: 24px;
+  padding: 10px;
   .container {
     position: relative;
     display: flex;
@@ -27,20 +27,26 @@ header {
     .menu {
       flex-basis: 100%;
       display: none;
-      background-color: gray;
       .ulheader {
         margin: 0;
         padding: 0;
         list-style: none;
         li {
           padding: 10px;
+          text-align: center;
+        }
+        li:hover {
+          background-color: rgba(0, 112, 192, 0.418);
+          color:white;
+          cursor: pointer;
+          transition: all 0.1s ease-in;
         }
       }
     }
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   header {
     label {
       display: none;
@@ -53,7 +59,11 @@ header {
         .ulheader {
           display: flex;
           flex-direction: row;
-          justify-content: center;
+          justify-content: flex-end;
+          li:hover {
+            background-color: white;
+            color: rgb(0, 112, 192);
+          }
         }
       }
     }
