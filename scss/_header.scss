@@ -10,15 +10,32 @@ header {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    label span{
-      display: block;
+    
+    label{
+      background: none;
+      border: 0;
+      cursor: pointer;
+      padding: 0;
       width: 40px;
-      height: 5px;
-      margin-bottom: 1.5px;
-      position: relative;
-      background: black;
-      z-index: 1;
+      height: 40px;
+
+
+
     }
+    label span{
+      width: 40px;
+      height: 4px;
+      border-radius: 5px;
+      display: block;
+      margin: 5px auto;
+      background: rgb(11, 89, 144);
+
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+
+    }
+    //animaciones en hamburger.scss
+
     .menu-desplegar {
       display: none;
     }

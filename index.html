@@ -14,9 +14,9 @@
             <img src="images/logo.png" alt="logo" width="160px" height="50px">
             <input type="checkbox" id="desplegar" name="desplegar" class="menu-desplegar">
             <label for="desplegar">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span class="top-line"></span>
+                <span class="middle-line"></span>
+                <span class="bottom-line"></span>
             </label>
             <nav class="menu">
                 <ul class="ulheader">
@@ -113,6 +113,15 @@
         <img src="images/logo.png" alt="logo" width="170px" height="60px">
         <p>Acámica 2020</p>
     </footer>
+
+    <script>
+        const nav = document.querySelector('.container label');
+        nav.addEventListener('click', e => {
+            nav.classList.toggle('open');
+        });
+
+    </script>
+
 </body>
 
 </html>
