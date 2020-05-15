@@ -11,17 +11,7 @@ header {
     align-items: center;
     justify-content: space-between;
     
-    label{
-      background: none;
-      border: 0;
-      cursor: pointer;
-      padding: 0;
-      width: 40px;
-      height: 40px;
-
-
-
-    }
+  
     label span{
       width: 40px;
       height: 4px;
@@ -30,11 +20,7 @@ header {
       margin: 5px auto;
       background: rgb(11, 89, 144);
 
-      animation-duration: 1s;
-      animation-fill-mode: forwards;
-
     }
-    //animaciones en hamburger.scss
 
     .menu-desplegar {
       display: none;
